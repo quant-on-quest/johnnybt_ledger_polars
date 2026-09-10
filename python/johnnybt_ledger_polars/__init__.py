@@ -17,6 +17,9 @@ from polars.plugins import register_plugin_function
 if TYPE_CHECKING:
     from collections.abc import Mapping, Sequence
 
+__all__ = ["simulate"]
+"""One expression: the account walk under this policy."""
+
 _LIB = Path(__file__).parent
 
 
