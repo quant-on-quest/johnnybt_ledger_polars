@@ -17,8 +17,8 @@ classifiers = [
 dependencies = ["polars>=1.40"]
 
 [project.urls]
-Homepage = "https://github.com/quant-on-quest/johnnybt_ledger_polars"
-Repository = "https://github.com/quant-on-quest/johnnybt_ledger_polars"
+Homepage = "https://github.com/quant-on-quest/johnnybt-ledger-polars"
+Repository = "https://github.com/quant-on-quest/johnnybt-ledger-polars"
 
 [build-system]
 requires = ["maturin>=1.7,<2.0"]

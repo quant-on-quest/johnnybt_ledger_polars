@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 description = "An amount-based bookkeeping policy for johnnybt's account walk, as a polars plugin."
 license = "MIT"
-repository = "https://github.com/quant-on-quest/johnnybt_ledger_polars"
+repository = "https://github.com/quant-on-quest/johnnybt-ledger-polars"
 readme = "README.md"
 
 [lib]

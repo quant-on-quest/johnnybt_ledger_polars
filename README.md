@@ -1,6 +1,6 @@
 # johnnybt-ledger-polars
 
-An **amount-based bookkeeping policy** for [johnnybt](https://github.com/quant-on-quest/johnnybt)'s
+An **amount-based bookkeeping policy** for `johnnybt`'s
 account walk, as a polars expression plugin.
 
 The framework's default policy (`johnnybt-polars`) is market-neutral: a buy only
