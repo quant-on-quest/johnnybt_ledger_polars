@@ -1,0 +1,30 @@
+[project]
+name = "johnnybt-ledger-polars"
+version = "0.1.0"
+description = "An amount-based bookkeeping policy for johnnybt's account walk: netted funding, a money sellable budget, two-pass sizing."
+requires-python = ">=3.11"
+authors = [{ name = "MJ" }]
+license = "MIT"
+license-files = ["LICENSE"]
+readme = "README.md"
+keywords = ["polars", "backtest", "bookkeeping", "quant"]
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: 3",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Intended Audience :: Financial and Insurance Industry",
+]
+dependencies = ["polars>=1.40"]
+
+[project.urls]
+Homepage = "https://github.com/quant-on-quest/johnnybt_ledger_polars"
+Repository = "https://github.com/quant-on-quest/johnnybt_ledger_polars"
+
+[build-system]
+requires = ["maturin>=1.7,<2.0"]
+build-backend = "maturin"
+
+[tool.maturin]
+python-source = "python"
+module-name = "johnnybt_ledger_polars._lib"
+features = ["pyo3/extension-module"]
