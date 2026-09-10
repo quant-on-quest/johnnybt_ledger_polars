@@ -26,6 +26,21 @@ account walk: the walk — pricing, ex-dividend, the liquidation pool, equity
 snapshots — is the same for every market, and only the funding, sizing and
 settlement rules live here.
 
+## Install
+
+```sh
+pip install johnnybt-ledger-polars
+```
+
+Prebuilt wheels — no Rust toolchain needed. One per platform, `abi3` against
+Python 3.11, which covers 3.11 through 3.14:
+
+| | x86_64 | arm64 |
+|---|---|---|
+| Linux | manylinux2014 (glibc 2.17 and up) | manylinux2014 (glibc 2.17 and up) |
+| macOS | 10.12 and up | 11.0 and up |
+| Windows | yes | yes |
+
 ## Use
 
 ```python
